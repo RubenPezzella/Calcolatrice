@@ -1,6 +1,6 @@
 package it.beTalent.calcolatrice;
 
-public class Calcolatrice {
+public class Calcolatrice{
 	
 	public int somma(int primo, int secondo, int terzo) {
 		int risultato;
@@ -8,4 +8,7 @@ public class Calcolatrice {
 		return risultato;
 	}
 
+	public int moltiplica(int primo, int secondo, int terzo) {
+		return primo * secondo * terzo;
+	}
 }
